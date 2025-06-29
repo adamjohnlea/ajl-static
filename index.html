@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home | Adam John Lea</title>
+  <meta name="description" content="Welcome to Adam John Lea's personal website">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="header"></div>
   <main id="main-content">
-    <h1>Welcome</h1>
-    <p>This is the homepage.</p>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p class="lead">I'm Adam John Lea, a web developer passionate about creating modern, responsive websites.</p>
+        <div class="cta-buttons">
+          <a href="about.html" class="btn btn-primary">Learn More</a>
+          <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">What I Do</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Web Design</h3>
+            <p>Creating beautiful, intuitive designs that engage users and reflect your brand identity.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💻</div>
+            <h3>Development</h3>
+            <p>Building responsive, fast-loading websites with clean code and modern technologies.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>Mobile-First</h3>
+            <p>Ensuring your site looks and works great on all devices, from phones to desktops.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <div id="footer"></div>
   <script src="include.js"></script>
